@@ -1,9 +1,9 @@
-// export interface Hero {
-//     id: number;
-//     name: string;
-// }
+export interface Hero {
+    id: number;
+    name: string;
+}
 
-export class Hero {
+export class Hero2 {
     constructor(
         public id: number,
         public name: string,
