@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero2 } from '../hero';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-hero-form',
@@ -21,5 +22,10 @@ export class HeroFormComponent implements OnInit {
   }
 
   onSubmit() { this.submitted = true; }
+
+  newHero() {
+    this.model = new Hero2(42,'','');
+    console.log($('test').myPlugin())
+  }
 
 }

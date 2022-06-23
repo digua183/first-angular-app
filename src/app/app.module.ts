@@ -14,6 +14,10 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
+//试用一下自己声明的类库typings.d.ts
+// import * as host from 'host';
+// const parsedUrl = host.parse('https://angular.io');
+// console.log(parsedUrl.hostname);
 
 @NgModule({
   declarations: [
